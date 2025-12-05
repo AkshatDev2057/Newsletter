@@ -1,0 +1,34 @@
+:root {
+  /* Extracted from design PNGs - placeholder values based on Tailwind defaults */
+  --color-slate-50: #f8fafc;
+  --color-slate-100: #f1f5f9;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-blue-50: #eff6ff;
+  --color-blue-100: #dbeafe;
+  --color-blue-500: #3b82f6;
+  --color-blue-600: #2563eb;
+  --color-blue-700: #1d4ed8;
+  --color-indigo-50: #eef2ff;
+  --color-indigo-500: #6366f1;
+  --color-indigo-600: #4f46e5;
+  --color-indigo-700: #4338ca;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-purple-500: #8b5cf6;
+  --color-purple-600: #7c3aed;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+
+  /* Custom gradients */
+  --gradient-primary: linear-gradient(135deg, var(--color-slate-50) 0%, var(--color-blue-50) 50%, var(--color-indigo-50) 100%);
+  --gradient-header: linear-gradient(135deg, var(--color-slate-50) 0%, var(--color-blue-50) 100%);
+  --gradient-button: linear-gradient(135deg, var(--color-blue-600) 0%, var(--color-indigo-600) 100%);
+
+  /* Custom shadows */
+  --shadow-blue: 0 10px 25px rgba(59, 130, 246, 0.3);
+  --shadow-indigo: 0 10px 25px rgba(79, 70, 229, 0.3);
+}
