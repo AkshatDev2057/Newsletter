@@ -14,7 +14,7 @@ export const apiClient = {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data),
   }).then(res => res.json()),
-  delete: (url: string) => fetch(`${API_BASE_URL}${url}`, { method: 'DELETE' }),
+   delete: (url: string) => fetch(`${API_BASE_URL}${url}`, { method: 'DELETE' }).then(res => res.json()),
 };
 
 export const queryClient = new QueryClient();
